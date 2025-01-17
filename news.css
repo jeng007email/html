@@ -1,0 +1,39 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Anuphan';
+}
+
+
+.news-80{
+    overflow: hidden;
+    width: 80%;
+    margin: auto;
+    background-color: azure;
+    .image{
+        float: left;
+        border: 1px solid #666;
+        img{
+            width: 600px;
+            padding-right: 1rem;
+        }
+        
+    }
+    .text{
+        margin-bottom: 1.5rem;
+        border: 1px solid #666;
+        padding: 1rem;
+    }
+}
+.hr-news{
+    width: 80%;
+    margin: 0.5rem auto;
+    border: 1px solid #fff;
+
+}
+
+.news-80:nth-child(2n) .image{
+    float: right;
+}
+

@@ -1,0 +1,8 @@
+.box-1{
+    display: inline;
+    /* background-color: aqua; */
+}
+.box-2{
+    display: inline-block;
+    /* background-color: blueviolet; */
+}

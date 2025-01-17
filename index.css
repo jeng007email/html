@@ -17,6 +17,11 @@
         width: 80%;
     }
 }
+@media screen and (max-width: 870px) {
+    .box-head{
+        flex-direction: column;
+    }   
+}
 
 .box-head{
     display: flex;
@@ -45,6 +50,16 @@
             text-transform: capitalize;
             font-weight: bold;
         }
+    }
+}
+
+@media screen and (max-width:870px) {
+    .hero-100{
+        display: none;
+        .hero-80{
+            display:none;
+        }
+
     }
 }
 
@@ -146,4 +161,9 @@
             text-indent: 3rem;
         }
     }
+}
+
+
+.box-news:first-child(2) .image-news{
+    background-color: blue;
 }
